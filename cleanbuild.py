@@ -12,7 +12,7 @@ import socket
  
 
 def cleanbuild():
-    listdir = ["game/unityLibrary/build","game/launcher/build","game/imageselector/build"]
+    listdir = ["game/unityLibrary/build","game/launcher/build","game/imageselector/build","game/unityLibrary/src/main/assets","game/unityLibrary/src/main/jniLibs"]
     for dir in listdir:
         flag = os.path.exists(dir)
         if flag: 

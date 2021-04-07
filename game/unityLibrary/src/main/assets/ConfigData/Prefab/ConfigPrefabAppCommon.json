@@ -1,9 +1,0 @@
-
-{
-"UIHomeCenterBar" : "AppCommon/Prefab/Home/UIHomeCenterBar.prefab",
-"UIHomeSideBar"   : "AppCommon/Prefab/Home/UIHomeSideBar.prefab",
-"UIGameMerge"     : "AppCommon/Prefab/Game/UIGameMerge.prefab",
-"GameMerge"       : "AppCommon/Prefab/Game/GameMerge.prefab",
-"LevelMap"        : "AppCommon/Prefab/Guanka/LevelMap.prefab",
-"UIGuankaCandyMatch" : "AppCommon/Prefab/Guanka/UIGuankaCandyMatch.prefab"
-}
