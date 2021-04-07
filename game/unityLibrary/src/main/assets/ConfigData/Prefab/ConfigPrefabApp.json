@@ -1,0 +1,10 @@
+
+{
+"UIGameWin" : "App/Prefab/Game/UIGameWin.prefab",
+"UIIconController" : "App/Prefab/ScreenShot/UIIconController.prefab",
+"UIGameFail"       : "App/Prefab/Game/UIGameFail.prefab",
+"UIPopProp"        : "App/Prefab/Game/Prop/UIPopProp.prefab",
+"UIAdHomeController" : "App/Prefab/ScreenShot/UIAdHomeController.prefab",
+"UIMergeItem"        : "App/Prefab/Game/UIMergeItem.prefab",
+"UIHomeMerge"        : "App/Prefab/Home/UIHomeMerge.prefab"
+}

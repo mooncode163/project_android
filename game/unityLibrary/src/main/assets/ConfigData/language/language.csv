@@ -1,0 +1,23 @@
+KEY,CN,EN
+APP_NAME,合成大西瓜2,Synthesis Watermelon2
+APP_NAME_HD,合成大西瓜HD,Synthesis Watermelon HD
+BtnStartGame,开始,Start
+STR_GameFail_TITLE,失败,Fail
+STR_GameFail_Detail,游戏失败重新开始,The game fails and starts again
+STR_GameFail_btnRevive,观看视频复活,Watch Video to Revive
+Restart,重新开始,Restart
+GameWin_TITLE,胜利,Success
+GameWin_BtnNext,下一题,Next 
+Score,得分,Score
+UIPopProp_Yes,使用,Yes
+UIPopProp_No,放弃,No
+Prop,道具,Prop
+Prop_Hammer,锤子,Hammer
+Prop_Hammer_Guide0,摧毁指定水果兵并获得积分,Destroy the designated player and gain points
+Prop_Hammer_Guide1,"您将对水果使用锤子,使用后水果立即消失","You will use a hammer on the fruit, and the fruit will disappear immediately after use"
+Prop_Magic,魔法球,Magic Ball
+Prop_Magic_Guide0,将下落的水果变为指定类型水果并获得积分,Change the falling fruit into the fruit of the specified type and obtain the integral
+Prop_Magic_Guide1,请选择需要变换的水果,Please select the fruit to be transformed
+Prop_BigBomb,大炸弹,Big Bomb
+Prop_BigBomb_Guide0,摧毁所有的同类水果并获得积分,Destroy all similar fruits and gain points
+Prop_BigBomb_Guide1,"您将对水果使用大炸弹使用后,所有同类型水果立即消失","You will use a big bomb on the fruit. After using it, all fruits of the same type will disappear immediately"

@@ -1,0 +1,44 @@
+{
+    "APPID": {
+        "microsoft": "0"
+    },
+    "APPTONGJI_ID": "0",
+    "SHARE": {
+        "HAVE_SHARE": false,
+        "umeng": {
+            "id": "0",
+            "key": "0"
+        },
+        "platform": [
+            {
+                "source": "weixin",
+                "id": "0",
+                "key": "0"
+            },
+            {
+                "source": "qq",
+                "id": "0",
+                "key": "0"
+            },
+            {
+                "source": "weibo",
+                "id": "0",
+                "key": "0"
+            }
+        ]
+    },
+    "PAY": {
+        "platform": [
+            {
+                "source": "weixin",
+                "id": "0",
+                "key": "0"
+            },
+            {
+                "source": "qq",
+                "id": "0",
+                "key": "0"
+            }
+        ]
+    }
+}

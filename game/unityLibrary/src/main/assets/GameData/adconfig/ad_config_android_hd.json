@@ -1,0 +1,36 @@
+{
+    "platform": [
+        {
+            "appid": "1111627414",
+            "appname": "西瓜大合成HD",
+            "key_banner": "7051969936924364",
+            "key_insert": "2061163926822375",
+            "key_native": "0",
+            "key_splash": "0",
+            "key_splash_insert": "2061163926822375",
+            "key_video": "9061366956328306",
+            "source": "gdt"
+        },
+        {
+            "appid": "0",
+            "appkey": "0",
+            "appname": "0",
+            "key_banner": "0",
+            "key_insert": "0",
+            "key_splash": "0",
+            "key_splash_insert": "0",
+            "source": "xiaomi"
+        },
+        {
+            "appid": "c4a00fb0",
+            "appname": "合成大西瓜2",
+            "key_banner": "7452828",
+            "key_insert": "7452829",
+            "key_native": "0",
+            "key_splash": "0",
+            "key_splash_insert": "7452829",
+            "key_video": "7452830",
+            "source": "baidu"
+        }
+    ]
+}
