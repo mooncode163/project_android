@@ -8,17 +8,17 @@ import android.net.Uri;
 import android.util.Log;
 import android.widget.Toast;
 
-//import androidx.annotation.Nullable;
-//
-//import com.bumptech.glide.Glide;
-//import com.bumptech.glide.load.DataSource;
-//import com.bumptech.glide.load.engine.GlideException;
-//import com.bumptech.glide.request.RequestListener;
-//import com.bumptech.glide.request.target.Target;
+import androidx.annotation.Nullable;
+
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.DataSource;
+import com.bumptech.glide.load.engine.GlideException;
+import com.bumptech.glide.request.RequestListener;
+import com.bumptech.glide.request.target.Target;
 
 
-//import com.donkingliang.imageselector.utils.ImageSelector;
-//import com.donkingliang.imageselector.utils.UriUtils;
+import com.donkingliang.imageselector.utils.ImageSelector;
+import com.donkingliang.imageselector.utils.UriUtils;
 import com.moonma.common.CommonUtils;
 import com.unity3d.player.UnityPlayer;
 
@@ -82,7 +82,7 @@ public class ImageSelectUnity {
             File mFile = new File(filePath);                        //将要保存的图片文件
             if (mFile.exists()) {
                // Toast.makeText(context, "该图片已存在!", Toast.LENGTH_SHORT).show();
-                return false;
+//                return false;
             }
 
             FileOutputStream outputStream = new FileOutputStream(mFile);     //构建输出流
@@ -120,46 +120,46 @@ public class ImageSelectUnity {
     public void LoadOne() {
             Activity ac = Common.getMainActivity();
                 //单选
-//                ImageSelector.builder()
-//                        .useCamera(true) // 设置是否使用拍照
-//                        .setSingle(true)  //设置是否单选
-//                        .canPreview(true) //是否点击放大图片查看,，默认为true
-//                        .start(ac, REQUEST_CODE); // 打开相册
+                ImageSelector.builder()
+                        .useCamera(true) // 设置是否使用拍照
+                        .setSingle(true)  //设置是否单选
+                        .canPreview(true) //是否点击放大图片查看,，默认为true
+                        .start(ac, REQUEST_CODE); // 打开相册
 
     }
 
     public void LoadCamera() {
         Activity ac = Common.getMainActivity();
         //仅拍照
-//        ImageSelector.builder()
-//                .onlyTakePhoto(true)  // 仅拍照，不打开相册
-//                .start(ac, REQUEST_CODE);
+        ImageSelector.builder()
+                .onlyTakePhoto(true)  // 仅拍照，不打开相册
+                .start(ac, REQUEST_CODE);
 
     }
 
     protected void LoadImage( ArrayList<String> images ) {
         final String image = images.get(0);
         Activity ac = Common.getMainActivity();
-//        Glide.with(ac).asBitmap()
-//                .load(UriUtils.getImageContentUri(ac, image))
-//                .listener(new RequestListener<Bitmap>() {
-//                              @Override
-//                              public boolean onLoadFailed(@Nullable GlideException e, Object o, Target<Bitmap> target, boolean b) {
-//                                  return false;
-//                              }
-//
-//                              @Override
-//                              public boolean onResourceReady(Bitmap bitmap, Object o, Target<Bitmap> target, DataSource dataSource, boolean b) {
-//                                  Log.d(TAG,   " cover successful!");
-//
-//                                  String filePath = CommonUtils.getCachePath()+"/imageselect_temp.jpg";
-//                                  ImageSelectUnity.Main().SaveImage(bitmap,filePath);
-//                                  ImageSelectUnity.Main().OnImageFinish(filePath);
-//                                   // this.OnImageFinish(filePath);
-//                                  return false;
-//                              }
-//                          }
-//                ).submit();
+        Glide.with(ac).asBitmap()
+                .load(UriUtils.getImageContentUri(ac, image))
+                .listener(new RequestListener<Bitmap>() {
+                              @Override
+                              public boolean onLoadFailed(@Nullable GlideException e, Object o, Target<Bitmap> target, boolean b) {
+                                  return false;
+                              }
+
+                              @Override
+                              public boolean onResourceReady(Bitmap bitmap, Object o, Target<Bitmap> target, DataSource dataSource, boolean b) {
+                                  Log.d(TAG,   " cover successful!");
+
+                                  String filePath = CommonUtils.getCachePath()+"/imageselect_temp.jpg";
+                                  ImageSelectUnity.Main().SaveImage(bitmap,filePath);
+                                  ImageSelectUnity.Main().OnImageFinish(filePath);
+                                   // this.OnImageFinish(filePath);
+                                  return false;
+                              }
+                          }
+                ).submit();
 
     }
 
@@ -167,10 +167,10 @@ public class ImageSelectUnity {
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
 //        super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == REQUEST_CODE && data != null) {
-//            ArrayList<String> images = data.getStringArrayListExtra(ImageSelector.SELECT_RESULT);
-//            boolean isCameraImage = data.getBooleanExtra(ImageSelector.IS_CAMERA_IMAGE, false);
-////            Log.d("ImageSelector", "是否是拍照图片：" + isCameraImage);
-//            this.LoadImage(images);
+            ArrayList<String> images = data.getStringArrayListExtra(ImageSelector.SELECT_RESULT);
+            boolean isCameraImage = data.getBooleanExtra(ImageSelector.IS_CAMERA_IMAGE, false);
+//            Log.d("ImageSelector", "是否是拍照图片：" + isCameraImage);
+            this.LoadImage(images);
         }
     }
 

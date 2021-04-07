@@ -87,9 +87,9 @@ public class MainActivity extends UnityPlayerActivity  implements ViewTreeObserv
         super.onCreate(savedInstanceState);
 
 //@moon
-//        isGameRun = false;
-//        mUnityPlayer.getViewTreeObserver().addOnGlobalLayoutListener(this);
-//        // 如果targetSDKVersion >= 23，就要申请好权限。如果您的App没有适配到Android6.0（即targetSDKVersion < 23），那么只需要在这里直接调用fetchSplashAD接口。
+        isGameRun = false;
+        mUnityPlayer.getViewTreeObserver().addOnGlobalLayoutListener(this);
+        // 如果targetSDKVersion >= 23，就要申请好权限。如果您的App没有适配到Android6.0（即targetSDKVersion < 23），那么只需要在这里直接调用fetchSplashAD接口。
 //        if (Build.VERSION.SDK_INT >= 23) {
 //            checkAndRequestPermission();
 //        }
@@ -231,9 +231,9 @@ public class MainActivity extends UnityPlayerActivity  implements ViewTreeObserv
             lackedPermission.add(Manifest.permission.ACCESS_FINE_LOCATION);
         }
 
-//        if (!(checkSelfPermission(Manifest.permission.CAMERA) == PackageManager.PERMISSION_GRANTED)) {
-//            lackedPermission.add(Manifest.permission.CAMERA);
-//        }
+        if (!(checkSelfPermission(Manifest.permission.CAMERA) == PackageManager.PERMISSION_GRANTED)) {
+            lackedPermission.add(Manifest.permission.CAMERA);
+        }
 //        if (!(checkSelfPermission(Manifest.permission.READ_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED)) {
 //            lackedPermission.add(Manifest.permission.READ_EXTERNAL_STORAGE);
 //        }
@@ -399,7 +399,7 @@ public class MainActivity extends UnityPlayerActivity  implements ViewTreeObserv
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
 
-       // ImageSelectUnity.Main().onActivityResult(requestCode,resultCode,data);
+        ImageSelectUnity.Main().onActivityResult(requestCode,resultCode,data);
 /*
         if (requestCode == ImageUtil.REQUEST_CODE_IMAGE && resultCode == RESULT_OK) {
             Uri mPath = data.getData();

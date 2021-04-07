@@ -1,10 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: com.umeng.umsdk:apm:1.1.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e4a294f7a7950e49ba1b44bbfc15b1d0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e4a294f7a7950e49ba1b44bbfc15b1d0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e4a294f7a7950e49ba1b44bbfc15b1d0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/124b97cf1a354d94c863a4e66dfb1b31/res" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e4a294f7a7950e49ba1b44bbfc15b1d0/jars/libs/crashsdk-3.2.0.4-proxy-log-collect.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e4a294f7a7950e49ba1b44bbfc15b1d0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e4a294f7a7950e49ba1b44bbfc15b1d0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.umeng.umsdk/apm/1.1.0/e7edc586d8aa48c1ba026ba696d1bfbcb2b3e44e/apm-1.1.0-javadoc.jar!/" />

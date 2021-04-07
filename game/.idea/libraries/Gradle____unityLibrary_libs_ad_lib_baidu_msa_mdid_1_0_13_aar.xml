@@ -1,8 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: ./unityLibrary/libs/ad_lib/baidu/msa_mdid_1.0.13.aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3e5ea4e59453bb4e00bbb8c99557c5ad/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3e5ea4e59453bb4e00bbb8c99557c5ad/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1fcc6519c8d82681afe5e1de22b2d65e/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3e5ea4e59453bb4e00bbb8c99557c5ad/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3e5ea4e59453bb4e00bbb8c99557c5ad/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />

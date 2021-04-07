@@ -2,8 +2,8 @@
   <library name="Gradle: com.github.bumptech.glide:glide:4.9.0@aar">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c2549cd6a76f33d4c5928a7f667d4488/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c2549cd6a76f33d4c5928a7f667d4488/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c2549cd6a76f33d4c5928a7f667d4488/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c2549cd6a76f33d4c5928a7f667d4488/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/4.9.0/b53be1dd9e86c008d96d319510846282f95c49f/glide-4.9.0-javadoc.jar!/" />
